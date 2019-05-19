@@ -1,0 +1,21 @@
+{
+    "name": "spaceboy/nette-slalom",
+    "description": "Make server-dependent configuration slalom easy and readable. Adapted for Nette framework configurator.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Spaceboy"
+        }
+    ],
+    "keywords": ["spaceboy", "configurator", "config", "server", "php", "nette", "slalom"],
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.0.0",
+        "spaceboy/config-slalom": "dev-master"
+    }
+}
